@@ -1,0 +1,10 @@
+<h1>Arya Stark</h1>
+<h2>
+  Enter message: <input type="text" #myinput><br>
+  <button type="button" (click) = "send(myinput.value)">Send Message</button>
+</h2>
+  <br><br>
+<h3>
+  <p *ngFor = "let msg of msgs">{{ msg }}</p>
+</h3>
+<hr>
